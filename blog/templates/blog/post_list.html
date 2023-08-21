@@ -1,32 +1,15 @@
-<!DOCTTYPE html>
-<html>
-    <head>
-        <title>Thembi's blog</title>
-    </head>
-
-    <body>
-       <header>
-        <h1><a href="/">Django Girls Blog</a></h1>
-       </header>
-
-       <article>
-        {%if object %}
-        {% for obj in object %}
+{% extends 'blog/base.html'%}
+{% block content %}
             
-            <h2><a href="">{{obj.title}}</a></h2>
-                <p>{{obj.text|linebreaksbr}}</p>
-                <time>{{obj.published_date}}</time>
-        {% endfor %}
-        {% endif %}
-       
-       </article>
-
-       <!--<article>
-        <time>published: 14.06.2014, 12:14</time>
-        <h2><a href="">My second post</a></h2>
-        <p>Hy there this is my secnd post</p>
-       </article>-->
-       
-
-    </body>
-</html>
+                {%if object %}
+                {% for obj in object %}
+                    <article class="post">
+                    <time>{{obj.published_date}}</time>
+                    <h2><a href="{% url 'post_detail' pk=obj.pk %}">{{obj.title}}</a></h2>
+                    <p>{{obj.text|linebreaksbr}}</p>
+                </article>
+                {% endfor %}
+                {% endif %}
+               
+               
+{% endblock content %}
