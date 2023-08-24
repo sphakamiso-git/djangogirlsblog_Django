@@ -31,9 +31,14 @@ Remove the current SECRET_KEY and insert secret Key below in the settings file
 > SECRET_KEY='django-insecure-_i0(j$97t91%v&^7u6-dcmynle5&7f2uyswiqw8!b@@2haflj%'
 >
 ### Installation
-Run pip install -r requirements.txt 
+**Run** pip install -r requirements.txt 
 
 [Pip requirements](/requirements.txt)
+
+
+## References
+
+This site was built following the [Django Girls tutorial](https://tutorial.djangogirls.org/en/)
 
 
 
