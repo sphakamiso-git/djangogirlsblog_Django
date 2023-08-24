@@ -7,10 +7,10 @@ a safe and friendly environment.
 #
 ## Table of contents
 - [Description](#description)
-- [How To Use](#how%20To%20Use)
+- [How To Use](#how-To-Use)
 - [References](#references)
 - [Licenses](#licences)
-- [Author Info](#-author-Info)
+- [Author Info](#author-Info)
 
 ## Description
 Django girls blog lets you add post through a form, and you are able to view the post on the hoome page, it also has admin functionalities so that you are able to add post in the backend and delete post.
