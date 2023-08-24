@@ -26,7 +26,7 @@ The application can be further expanded to add users and allow more advanced fea
 #
 
 ## How To Use
-Remove the current SECRET_KEY and insert secret Key below in the settings file \
+Remove the current SECRET_KEY and insert secret Key below in the settings file 
 > [!NOTE]
 > SECRET_KEY='django-insecure-_i0(j$97t91%v&^7u6-dcmynle5&7f2uyswiqw8!b@@2haflj%'
 
