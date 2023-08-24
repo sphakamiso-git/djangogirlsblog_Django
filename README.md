@@ -7,10 +7,10 @@ a safe and friendly environment.
 #
 ## Table of contents
 - [Description](#description)
-- How to Use
-- References
-- Licenses
-- Author Info
+- [How to Use](#how_to_Use)
+- [References](#references)
+- [Licenses](#licenses)
+- [Author Info](#autho_Info)
 
 ## Description
 Django girls blog lets you add post through a form, and you are able to view the post on the hoome page, it also has admin functionalities so that you are able to add post in the backend and delete post.
@@ -40,6 +40,12 @@ Remove the current SECRET_KEY and insert secret Key below in the settings file
 ## References
 
 This site was built following the [Django Girls tutorial](https://tutorial.djangogirls.org/en/)
+
+## Licences
+
+## Author Info
++ Ola Sitarska
++ Ola Sendecka
 
 
 
