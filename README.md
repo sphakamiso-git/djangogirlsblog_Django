@@ -33,7 +33,7 @@ Remove the current SECRET_KEY and insert secret Key below in the settings file
 ### Installation
 Run pip install -r requirements.txt 
 
-[Pip requirements]()
+[Pip requirements](/requirements.txt)
 
 
 
