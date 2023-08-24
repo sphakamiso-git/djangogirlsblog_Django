@@ -36,6 +36,7 @@ Remove the current SECRET_KEY and insert secret Key below in the settings file
 [Pip requirements](/requirements.txt)
 
 
+
 ## References
 
 This site was built following the [Django Girls tutorial](https://tutorial.djangogirls.org/en/)
