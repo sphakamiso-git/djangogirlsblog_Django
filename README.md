@@ -6,7 +6,7 @@ a safe and friendly environment.
 
 #
 ## Table of contents
-- Description
+- [Description](#description)
 - How to Use
 - References
 - Licenses
