@@ -47,7 +47,6 @@ This site was built following the [Django Girls tutorial](https://tutorial.djang
 + Ola Sitarska
 + Ola Sendecka
 
-
 [Back to the top](#djangogirlsblog_Django)
 
 
